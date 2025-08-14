@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaji Ingenieria contra Incendios</title>
+    <link rel="stylesheet" href="CSS/style.CSS" />
+</head>
+<body> 
+   <header>
+      <div class="foto">
+         <img src="imagenes/Contactos.png" alt="Foto de fondo" />
+      </div>
+      <nav>
+         <ul>
+             <li><a href="#nosotros">Nosotros</a></li>
+             <li><a href="#servicio">Servicios</a> 
+                 <ul>
+                     <li><a href="#servis1">Servicio 1</a></li>
+                     <li><a href="#servis2">Servicio 2</a></li>
+                     <li><a href="#servis3">Servicio 3</a></li>
+                 </ul>
+            </li>
+             <li><a href="#socios">Socios</a></li>
+             <li><a href="#contactos">Contactos</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <section id="contactos" class="contactos">
+     <div class="contactos-contenido">
+         <h1> Donde encontrarnos</h1>
+         <h3> Horarios de atención: Lunes a sábados de 8:00 a 18:00 hs. </h3>
+         <h3> Nos encontramos en Neuquén - Argentina</h3>
+         <h3> Teléfono: 299-156357521  //  Email: contacto@kaji.com.ar</h3>
+
+         
+         <div class="contactos-formulario"> 
+               <form method="post" action="numeral" enctype="multipart/form-data"></form>
+                  <legend>Formulario</legend>
+
+                  <label for="nombre">Nombre y Apellido</label><br>
+                  <input type="text" name="nombre" id="nombre" required ><br>
+                  <label for="correo">Email</label><br>
+                  <input type="email" name="correo" id="correo" required ><br>
+                  <label for="tel">Teléfono</label><br>
+                  <input type="number" name="tel" id="tel" required ><br>
+                  <label for="asunto">Asunto</label><br>
+                  <input type="text" name="asunto" id="asunto" required ><br>
+         
+                  <label>Mensaje</label><br>
+                  <textarea name="mensaje">
+                  </textarea><br> 
+
+                  <br>
+                  <input type="submit" name="enviar" value="enviar">
+         </div>
+     </div>
+   </section>
+</body>
+</html>
