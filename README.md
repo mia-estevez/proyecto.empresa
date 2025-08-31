@@ -1,10 +1,7 @@
 # proyecto.empresa
-<h1>KAJI S.A.S</h1><br>
-<p>Sistemas contra incendios</p><br>
-<br><h2>Páginas creadas</h2><br>
-<hr>
+<h1>KAJI S.A.S Sistemas contra incendios </h1>
+<h2>Páginas creadas</h2>
 <ul>
-  <li>Index</li>
   <li>Nosotros</li>
   <li>Servicios</li>
   <li>Clientes</li>
