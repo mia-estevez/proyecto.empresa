@@ -2,3 +2,9 @@ body {
     background-color: rgb(240, 240, 200);
     text-align: center;
 }
+
+.servicio-contenido{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
