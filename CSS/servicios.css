@@ -3,7 +3,19 @@ body {
     text-align: center;
 }
 
-.servicio-contenido{
+#franja{
+    background-color: rgba(173, 2, 2, 0.788);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#franja2{
+    background-color: rgb(240, 240, 200);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#servicio{
     margin-left: 60px;
     margin-right: 60px;
     padding: 20px;
