@@ -22,3 +22,13 @@ body {
     flex: 1;
     text-align: left;
 }
+
+#nosotros{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.foto{
+    border-radius: 25px;
+}
