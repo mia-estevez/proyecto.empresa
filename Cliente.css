@@ -4,7 +4,15 @@ body {
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-  
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
 
 
 
