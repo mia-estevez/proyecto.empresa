@@ -4,6 +4,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
 .ideas {
     background-color: rgba(173, 2, 2, 0.788);
     border-radius: 20px;
