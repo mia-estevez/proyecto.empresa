@@ -125,6 +125,23 @@ img {
 }
 
 
+    .nav-menu {
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        right: 0;
+        background-color: rgba(150, 2, 2, 0.9);
+        width: 200px;
+        height: 100vh;
+        padding: 20px;
+        border-radius: 0 0 0 10px;
+        gap: 15px;
+        box-shadow: -2px 0 8px rgba(0,0,0,0.3);
+        display: none; /* Oculto hasta que se active */
+        z-index: 1000;
+    }
+
+
 
 
 
