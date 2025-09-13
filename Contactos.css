@@ -171,3 +171,10 @@ input, textarea {
     background-color: rgba(173, 2, 2, 0.788);
     color: white;
 }
+
+/* ===================== FOOTER ===================== */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
