@@ -82,6 +82,17 @@ img {
 }
 
 
+.nav-menu li a:hover {
+    background-color: rgba(240, 240, 200, 0.2);
+}
+
+
+.menu:hover .nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 
 
