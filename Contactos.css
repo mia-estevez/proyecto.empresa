@@ -136,3 +136,12 @@ header {
     text-align: center;
     padding: 20px;
 }
+
+.contactos-franja {
+    background-color: rgba(150, 2, 2, 0.788);
+    border-radius: 50px;
+    color: rgb(240, 240, 200);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
