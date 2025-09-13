@@ -49,6 +49,10 @@ img {
     color: black;
 }
 
+.menu {
+    position: relative; /* referencia para el dropdown */
+}
+
 
 
 
