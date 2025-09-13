@@ -25,6 +25,16 @@ h2{
    color: rgba(150, 2,2,0.788);
 }
 
+.contenedor {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center; /* Centra horizontalmente cada imagen */
+            align-items: center;   /* Centra verticalmente dentro del contenedor */
+            gap: 40px;
+            max-width: 600px;
+            margin: 40px auto;
+}
+
 
 
 
