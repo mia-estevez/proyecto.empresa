@@ -13,6 +13,12 @@ header {
     flex-wrap: wrap;
 }
 
+h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   color: rgba(150, 2,2,0.788);
+}
+
 
 
 
