@@ -21,3 +21,117 @@ body {
     margin-right: 60px;
     padding: 20px;
 }
+
+.menu-toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.menu {
+    position: relative; /* referencia para el dropdown */
+}
+
+/* Menú oculto por defecto */
+.nav-menu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;   /* debajo del botón */
+    right: 0;    /* alineado a la derecha del botón */
+    background: rgba(150, 2, 2, 0.9);
+    border-radius: 10px;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilo de enlaces */
+.nav-menu li a {
+    display: block;
+    padding: 10px;
+    color: rgb(240, 240, 200);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-menu li a:hover {
+    background-color: rgba(240, 240, 200, 0.2);
+}
+
+/* Mostrar menú al pasar el mouse */
+.menu:hover .nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu:hover .nav-menu li a {
+    color: rgb(240, 240, 200);
+}
+
+/* Ocultar el menú por defecto en modo acordeón */
+.nav-menu {
+    display: none;
+}
+
+/* Mostrar menú en desktop cuando el mouse está sobre .menu */
+@media screen and (min-width: 769px) {
+    .menu:hover .nav-menu {
+        display: flex;
+    }
+}
+
+/* Estilos para móvil */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: black;
+        background: transparent;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        right: 0;
+        background-color: rgba(150, 2, 2, 0.9);
+        width: 200px;
+        height: 100vh;
+        padding: 20px;
+        border-radius: 0 0 0 10px;
+        gap: 15px;
+        box-shadow: -2px 0 8px rgba(0,0,0,0.3);
+        display: none; /* Oculto hasta que se active */
+        z-index: 1000;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .nav-menu li a {
+        color: rgb(240, 240, 200);
+        font-weight: bold;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

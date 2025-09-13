@@ -1,40 +1,28 @@
 body {
     background-color: rgb(240, 240, 200);
-    text-align: center;
+    margin: 0;
+    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.ideas {
-    background-color: rgba(173, 2, 2, 0.788);
-    border-radius: 20px;
-    margin: 20px;
-}
-
-.nosotros-franja {
+/* ===================== HEADER ===================== */
+header {
     display: flex;
-    justify-content: space-between;
-    padding: 40px 20px;
-    gap: 40px;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
 }
 
-.nosotros-vision,
-.nosotros-mision {
-    flex: 1;
-    text-align: left;
+#foto {
+    border-radius: 50px;
+    height: auto;
+    display: flex;
+    text-align:  center;
+    margin-right: 30px;
 }
 
-#nosotros{
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 20px;
-}
-
-
-#foto{
-    border-radius: 20px;
-}
-
+/* ===================== MENU ===================== */
 .menu-toggle {
     background-color: transparent;
     border: none;
@@ -143,6 +131,48 @@ body {
     }
 }
 
+/* ===================== SECCIÓN CONTACTO ===================== */
+.contactos-contenido {
+    text-align: center;
+    padding: 20px;
+}
+
+.contactos-franja {
+    background-color: rgba(150, 2, 2, 0.788);
+    border-radius: 50px;
+    color: rgb(240, 240, 200);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.contactos-formulario {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#boton {
+    background-color: rgb(240, 240, 200);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#boton:hover {
+    background-color: rgba(173, 2, 2, 0.788);
+    color: white;
+}
+
+/* ===================== FOOTER ===================== */
 footer {
     text-align: center;
     padding: 20px;
