@@ -72,6 +72,17 @@ img {
 }
 
 
+.nav-menu li a {
+    display: block;
+    padding: 10px;
+    color: rgb(240, 240, 200);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
 
 
 
