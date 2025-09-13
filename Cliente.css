@@ -173,6 +173,15 @@ img {
 }
 
 
+.cliente img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+
 
 
 
