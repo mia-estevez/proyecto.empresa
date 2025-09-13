@@ -130,3 +130,9 @@ header {
         font-weight: bold;
     }
 }
+
+/* ===================== SECCIÓN CONTACTO ===================== */
+.contactos-contenido {
+    text-align: center;
+    padding: 20px;
+}
