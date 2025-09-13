@@ -1,5 +1,0 @@
-HTML linea 56,57, 36 y 30 agregue un br
-agregue div contactos-franja
-agregue div menú
-pase la info de h2 a p
-agregue un id al boton
