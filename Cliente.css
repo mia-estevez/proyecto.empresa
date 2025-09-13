@@ -153,7 +153,7 @@ img {
     }
 
 
-    
+
 .clientes-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -161,6 +161,15 @@ img {
     max-width: 1200px;
     margin: 0 auto 40px auto;
     padding: 0 20px;
+}
+
+
+.cliente {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 20px;
+    text-align: center;
 }
 
 
