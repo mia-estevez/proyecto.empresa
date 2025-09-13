@@ -29,17 +29,15 @@ h2{
             margin: 40px auto;
  }
 
-img {
-    width: 150px;
-    height: auto;
-}
 
-.banner-clientes{
+
+#foto {
     border-radius: 50px;
     height: auto;
     display: flex;
     text-align:  center;
     margin-right: 30px;
+    max-width: 600px;
 }
 
 
@@ -93,7 +91,7 @@ header{
     flex-wrap: wrap;
 }
 
-
+/*////////////////MENÚ ///////////*/
 
 .menu-toggle {
     background-color: transparent;
@@ -143,7 +141,7 @@ header{
 /* Mostrar menú al pasar el mouse */
 .menu:hover .nav-menu {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .menu:hover .nav-menu li a {
@@ -167,8 +165,8 @@ header{
     .menu-toggle {
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 10px;
+        right: 20px;
         color: black;
         background: transparent;
         border: none;
@@ -179,17 +177,52 @@ header{
 
     .nav-menu {
         flex-direction: column;
-        position: fixed;
+        position: absolute;   /* ✅ flotante debajo del botón */
         top: 50px;
-        right: 0;
+        right: 20px;
         background-color: rgba(150, 2, 2, 0.9);
         width: 200px;
-        height: 100vh;
-        padding: 20px;
-        border-radius: 0 0 0 10px;
-        gap: 15px;
-        box-shadow: -2px 0 8px rgba(0,0,0,0.3);
-        display: none; /* Oculto hasta que se active */
+        height: auto;         /* ✅ solo lo que ocupen los links */
+        padding: 10px;
+        border-radius: 10px;
+        gap: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        display: none;        /* oculto hasta que se active */
+        z-index: 1000;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: black;
+        background: transparent;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        position: absolute;   /* ✅ flotante debajo del botón */
+        top: 50px;
+        right: 20px;
+        background-color: rgba(150, 2, 2, 0.9);
+        width: 200px;
+        height: auto;         /* ✅ solo lo que ocupen los links */
+        padding: 10px;
+        border-radius: 10px;
+        gap: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        display: none;        /* oculto hasta que se active */
         z-index: 1000;
     }
 
@@ -197,8 +230,8 @@ header{
         display: flex;
     }
 
-    .nav-menu li a {
-        color: rgb(240, 240, 200);
-        font-weight: bold;
-    }
 }
+
+
+
+
