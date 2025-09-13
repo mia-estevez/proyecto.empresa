@@ -93,6 +93,11 @@ img {
 }
 
 
+.menu:hover .nav-menu li a {
+    color: rgb(240, 240, 200);
+}
+
+
 
 
 
