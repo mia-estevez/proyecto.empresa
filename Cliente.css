@@ -142,6 +142,11 @@ img {
     }
 
 
+.nav-menu.show {
+        display: flex;
+    }
+
+
 
 
 
