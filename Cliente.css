@@ -41,6 +41,15 @@ img {
      }
 
 
+.menu-toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+
 
 
 
