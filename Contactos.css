@@ -159,3 +159,15 @@ input, textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+#boton {
+    background-color: rgb(240, 240, 200);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#boton:hover {
+    background-color: rgba(173, 2, 2, 0.788);
+    color: white;
+}
