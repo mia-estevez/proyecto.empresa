@@ -25,6 +25,15 @@ h2{
    color: rgba(150, 2,2,0.788);
 }
 
+
+.banner-clientes {
+    width: 90%;        
+    height: auto;       
+    display: block;     
+    margin: 0;          
+    object-fit: cover;  
+}
+
 .contenedor {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -50,7 +59,7 @@ img {
 }
 
 .menu {
-    position: relative; /* referencia para el dropdown */
+    position: relative; 
 }
 
 .nav-menu {
