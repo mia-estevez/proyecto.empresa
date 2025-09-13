@@ -13,3 +13,11 @@ header {
     padding: 20px 40px;
     flex-wrap: wrap;
 }
+
+#foto {
+    border-radius: 50px;
+    height: auto;
+    display: flex;
+    text-align:  center;
+    margin-right: 30px;
+}
