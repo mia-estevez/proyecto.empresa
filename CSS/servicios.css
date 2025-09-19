@@ -34,6 +34,12 @@ header {
     max-width: 750px;
 }
 
+.resaltado {
+    color: rgb(240, 240, 200);
+    font-weight: bold;
+    background: rgba(173, 2, 2, 0.788);
+    border-radius: 20px;
+}
 .menu-toggle {
     background-color: transparent;
     border: none;
