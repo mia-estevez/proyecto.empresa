@@ -180,7 +180,7 @@ footer {
 }
 
 /* Formulario con animaciones */
-.contactos-formulario {
+.animacion {
   max-width: 500px;
   border-radius: 8px;
   animation: aparecer 1.8s ease-in-out;
