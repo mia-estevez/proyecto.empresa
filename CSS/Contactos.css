@@ -178,3 +178,16 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
+/* Formulario con animaciones */
+.contactos-formulario {
+  max-width: 500px;
+  border-radius: 8px;
+  animation: aparecer 1.8s ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+

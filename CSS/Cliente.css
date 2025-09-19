@@ -252,3 +252,18 @@ footer {
     font-size: 14px;
 }
 
+/* Formulario con animaciones */
+.formulario {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: aparecer 4s ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+.formulario:hover {
+  transform: scale(2);
+}
