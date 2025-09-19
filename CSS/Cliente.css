@@ -232,6 +232,11 @@ header{
 
 }
 
+.cliente-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
 /*-----------Franja------------*/
 .cliente-franja{
     background-color: rgba(150, 2, 2, 0.788);
