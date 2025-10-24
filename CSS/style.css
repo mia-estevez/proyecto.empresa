@@ -95,7 +95,22 @@ header {
   inset: 40px; /* (antes 60px) ver regla base de .login */
 }
 
-
+.login {
+  position: absolute;
+  inset: 60px; /* margen interno respecto al borde de .box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #00000033;   /* negro 20% */
+  color: #fff;
+  z-index: 1000;           /* por encima de .box::after */
+  box-shadow: inset 0 10px 20px #00000080;
+  border-bottom: 2px solid #ffffff80;
+  transition: 0.5s;        /* suaviza el cambio de inset en hover */
+  overflow: hidden;        /* oculta el desplazamiento inicial de .loginBx */
+}
 
 #nosotros{
     margin-left: 60px;
