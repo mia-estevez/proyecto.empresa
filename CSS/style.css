@@ -32,6 +32,31 @@ header {
     text-align: left;
 }
 
+.box {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background: repeating-conic-gradient(
+    from var(--a),
+    #ff2770 0%,
+    #ff2770 5%,
+    transparent 5%,
+    transparent 40%,
+    #ff2770 50%
+  );
+  filter: drop-shadow(0 15px 50px #e80f0f);
+  border-radius: 20px;
+  animation: rotating 4s linear infinite; /* actualiza --a (ver keyframes) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s; /* suaviza cambio de tamaño en :hover */
+}
+
+@keyframes rotating {
+  0%   { --a: 0deg; }
+  100% { --a: 360deg; }
+}
 
 
 
