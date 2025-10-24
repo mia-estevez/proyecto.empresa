@@ -32,10 +32,16 @@ header {
     text-align: left;
 }
 
+@property --a {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
 .box {
   position: relative;
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 400px;
   background: repeating-conic-gradient(
     from var(--a),
     #ff2770 0%,
@@ -126,6 +132,11 @@ header {
   width: 70%;
   transform: translateY(126px); /* estado inicial oculto hacia abajo */
   transition: 0.5s;
+}
+
+h1  {
+  color: #ff2770;
+  text-shadow: 0 0 5px #ff2770, 0 0 20px #ff2770;
 }
 
 #nosotros{
