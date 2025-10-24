@@ -112,6 +112,22 @@ header {
   overflow: hidden;        /* oculta el desplazamiento inicial de .loginBx */
 }
 
+.box:hover .loginBx {
+  transform: translateY(0px); /* aparece al hacer hover en .box */
+}
+
+.loginBx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  transform: translateY(126px); /* estado inicial oculto hacia abajo */
+  transition: 0.5s;
+}
+
 #nosotros{
     margin-left: 60px;
     margin-right: 60px;
