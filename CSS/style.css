@@ -91,6 +91,10 @@ header {
   height: 500px;
 }
 
+.box:hover .login {
+  inset: 40px; /* (antes 60px) ver regla base de .login */
+}
+
 
 
 #nosotros{
