@@ -77,6 +77,15 @@ header {
   animation-delay: -1s; /* comienza antes para desalinear el patrón con .box */
 }
 
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: #2d2d39;
+  border-radius: 15px;
+  border: 8px solid #25252b;
+}
+
 
 
 #nosotros{
