@@ -26,7 +26,7 @@ button{
     background-color: rgba(150, 2, 2, 0.9);
     color: rgb(240, 240, 200);
     border: none;
-    
+    padding: 10px 20px;
 }
 
 #foto {
