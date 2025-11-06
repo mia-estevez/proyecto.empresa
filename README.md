@@ -15,5 +15,10 @@
   <li>cliente.css</li>
   <li>contactos.css</li>
 </ul>
+<p>JS:</p>
+<ul>
+  <li>script.js</li>
+  <li>contactos.js</li>
+</ul>
 <hr>
 <p>Integrantes: Aros Agustina, Estevez Mía y Fuentes Aixa.</p>
