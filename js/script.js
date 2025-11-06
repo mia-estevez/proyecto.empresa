@@ -41,7 +41,7 @@ document.getElementById('confirmarLimpieza').addEventListener('click', () => {
   alert('Formulario limpiado 🧹');
 });
 
-// --- Cerrar modales ---
+// Cerrar modales
 document.querySelectorAll('.cerrar').forEach(botonCerrar => {
   botonCerrar.addEventListener('click', () => {
     modalConfirmar.style.display = 'none';
