@@ -40,3 +40,11 @@ document.getElementById('confirmarLimpieza').addEventListener('click', () => {
   formulario.reset(); 
   alert('Formulario limpiado 🧹');
 });
+
+// --- Cerrar modales ---
+document.querySelectorAll('.cerrar').forEach(botonCerrar => {
+  botonCerrar.addEventListener('click', () => {
+    modalConfirmar.style.display = 'none';
+    modalLimpiar.style.display = 'none';
+  });
+});
