@@ -46,6 +46,16 @@ button:hover{
   background-color: rgba(0,0,0,0.5);
 }
 
+.modal-contenido {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
 #franja{
     background-color: rgba(173, 2, 2, 0.788);
     border-radius: 20px;
