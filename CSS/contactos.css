@@ -50,7 +50,7 @@ button:hover{
 }
 
 .modal-contenido {
-  background-color: white;
+  background-color: rgba(150, 2, 2, 0.9);
   margin: 15% auto;
   padding: 20px;
   width: 300px;
