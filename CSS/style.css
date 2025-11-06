@@ -12,6 +12,15 @@ header {
     flex-wrap: wrap;
 }
 
+/*modo noche*/
+.modo-noche{
+    background-color: rgb(36, 32, 32);
+    color: rgb(240, 240, 200);
+    .menu-toggle{
+        color: rgb(240, 240, 200);
+    }
+}
+
 .ideas {
     background-color: rgba(173, 2, 2, 0.788);
     border-radius: 20px;
