@@ -10,19 +10,19 @@ boton.addEventListener('click', () => {
 
 });
 
-const botón = document.getElementById('botonEnviar');
+const button = document.getElementById('botonEnviar');
 const modalConfirmar = document.getElementById('modalConfirmar');
 const modalLimpiar = document.getElementById('modalLimpiar');
 const formulario = document.getElementById('miFormulario');
 
 // Click izq
-botón.addEventListener('click', (e) => {
+button.addEventListener('click', (e) => {
   e.preventDefault(); 
   modalConfirmar.style.display = 'block';
 });
 
 // Click derecho
-botón.addEventListener('contextmenu', (e) => {
+button.addEventListener('contextmenu', (e) => {
   e.preventDefault(); 
   modalLimpiar.style.display = 'block';
 });
