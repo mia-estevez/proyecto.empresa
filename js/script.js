@@ -33,3 +33,10 @@ document.getElementById('confirmarEnvio').addEventListener('click', () => {
   alert('Formulario enviado con éxito ✅');
   formulario.submit(); 
 });
+
+//  Confirmar limpieza 
+document.getElementById('confirmarLimpieza').addEventListener('click', () => {
+  modalLimpiar.style.display = 'none';
+  formulario.reset(); 
+  alert('Formulario limpiado 🧹');
+});
