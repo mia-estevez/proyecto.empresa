@@ -29,6 +29,7 @@ button{
     padding: 10px 20px;
     margin-left: 10px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #foto {
