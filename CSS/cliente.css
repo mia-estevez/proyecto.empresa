@@ -40,6 +40,16 @@ button:hover{
   background-color: rgba(0,0,0,0.5);
 }
 
+.modal-contenido {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
 h1{
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-align: center;
