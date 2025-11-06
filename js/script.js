@@ -16,13 +16,20 @@ const modalLimpiar = document.getElementById('modalLimpiar');
 const formulario = document.getElementById('miFormulario');
 
 // Click izq
-boton.addEventListener('click', (e) => {
+botón.addEventListener('click', (e) => {
   e.preventDefault(); 
   modalConfirmar.style.display = 'block';
 });
 
 // Click derecho
-boton.addEventListener('contextmenu', (e) => {
+botón.addEventListener('contextmenu', (e) => {
   e.preventDefault(); 
   modalLimpiar.style.display = 'block';
+});
+
+// Confirmar envío 
+document.getElementById('confirmarEnvio').addEventListener('click', () => {
+  modalConfirmar.style.display = 'none';
+  alert('Formulario enviado con éxito ✅');
+  formulario.submit(); 
 });
