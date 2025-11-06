@@ -19,6 +19,14 @@ header {
     .menu-toggle{
         color: rgb(240, 240, 200);
     }
+    .nosotros{
+        color: rgb(240, 240, 200);
+    }
+    #foto{
+        background-color: rgba(150, 2, 2, 0.9);
+        border-radius: 10px;
+        padding: auto;
+    }
 }
 
 button{
