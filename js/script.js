@@ -9,3 +9,5 @@ boton.addEventListener('click', () => {
     }
 
 });
+
+const boton = document.getElementById('botonEnviar');
