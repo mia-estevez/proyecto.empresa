@@ -13,3 +13,4 @@ boton.addEventListener('click', () => {
 const boton = document.getElementById('botonEnviar');
 const modalConfirmar = document.getElementById('modalConfirmar');
 const modalLimpiar = document.getElementById('modalLimpiar');
+const formulario = document.getElementById('miFormulario');
