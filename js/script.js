@@ -15,7 +15,14 @@ const modalConfirmar = document.getElementById('modalConfirmar');
 const modalLimpiar = document.getElementById('modalLimpiar');
 const formulario = document.getElementById('miFormulario');
 
+// Click izq
 boton.addEventListener('click', (e) => {
-  e.preventDefault(); // Evita enviar directamente
+  e.preventDefault(); 
   modalConfirmar.style.display = 'block';
+});
+
+// Click derecho
+boton.addEventListener('contextmenu', (e) => {
+  e.preventDefault(); 
+  modalLimpiar.style.display = 'block';
 });
