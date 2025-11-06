@@ -27,6 +27,7 @@ button{
     color: rgb(240, 240, 200);
     border: none;
     padding: 10px 20px;
+    margin-left: 10px;
 }
 
 #foto {
